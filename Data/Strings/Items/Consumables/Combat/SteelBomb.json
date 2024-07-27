@@ -4,7 +4,7 @@
     "cs": "Ocelová bomba",
     "da": "Stålbombe",
     "de": "Stahlbombe",
-    "el": "Ατσάλινη βόμβα",
+    "el": "Χαλύβδινη βόμβα",
     "en": "Steel Bomb",
     "es": "Bomba de acero",
     "es-419": "Bomba de acero",
@@ -12,7 +12,7 @@
     "fr": "Bombe en acier",
     "hu": "Acélbomba",
     "it": "Bomba d'acciaio",
-    "ja": "スチールボム",
+    "ja": "スチール爆弾",
     "ko": "강철 폭탄",
     "nl": "Stalen bom",
     "no": "Stålbombe",
@@ -26,6 +26,6 @@
     "tr": "Çelik Bomba",
     "uk": "Сталева бомба",
     "vi": "Bom thép",
-    "zh-CN": "钢弹",
-    "zh-TW": "鋼彈"
+    "zh-CN": "钢制炸弹",
+    "zh-TW": "鋼鐵炸彈"
 }

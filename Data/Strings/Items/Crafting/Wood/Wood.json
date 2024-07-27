@@ -1,6 +1,6 @@
 {
     "ar": "خشب",
-    "bg": "дърво",
+    "bg": "Дърво",
     "cs": "Dřevo",
     "da": "Træ",
     "de": "Holz",
@@ -10,8 +10,8 @@
     "es-419": "Madera",
     "fi": "Puu",
     "fr": "Bois",
-    "hu": "Faipari",
-    "it": "Legna",
+    "hu": "Fa",
+    "it": "Legno",
     "ja": "木材",
     "ko": "나무",
     "nl": "Hout",
@@ -20,12 +20,12 @@
     "pt": "Madeira",
     "pt-BR": "Madeira",
     "ro": "Lemn",
-    "ru": "Дерево",
+    "ru": "Древесина",
     "sv": "Trä",
-    "th": "เนื้อไม้",
-    "tr": "Ahşap",
+    "th": "ไม้",
+    "tr": "Odun",
     "uk": "Деревина",
     "vi": "Gỗ",
-    "zh-CN": "木",
-    "zh-TW": "木"
+    "zh-CN": "木材",
+    "zh-TW": "木材"
 }

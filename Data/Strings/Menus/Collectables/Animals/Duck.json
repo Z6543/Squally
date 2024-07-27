@@ -1,6 +1,6 @@
 {
     "ar": "بطة",
-    "bg": "Патица",
+    "bg": "Пате",
     "cs": "Kachna",
     "da": "And",
     "de": "Ente",
@@ -12,7 +12,7 @@
     "fr": "Canard",
     "hu": "Kacsa",
     "it": "Anatra",
-    "ja": "鴨",
+    "ja": "アヒル",
     "ko": "오리",
     "nl": "Eend",
     "no": "And",
@@ -26,6 +26,6 @@
     "tr": "Ördek",
     "uk": "Качка",
     "vi": "Vịt",
-    "zh-CN": "鸭",
-    "zh-TW": "鴨"
+    "zh-CN": "鸭子",
+    "zh-TW": "鴨子"
 }

@@ -1,15 +1,15 @@
 {
     "ar": "حديد",
     "bg": "Желязо",
-    "cs": "Žehlička",
+    "cs": "Železo",
     "da": "Jern",
     "de": "Eisen",
     "el": "Σίδερο",
     "en": "Iron",
-    "es": "Planchar",
-    "es-419": "Planchar",
+    "es": "Hierro",
+    "es-419": "Hierro",
     "fi": "Rauta",
-    "fr": "Le fer",
+    "fr": "Fer",
     "hu": "Vas",
     "it": "Ferro",
     "ja": "鉄",
@@ -25,7 +25,7 @@
     "th": "เหล็ก",
     "tr": "Demir",
     "uk": "Залізо",
-    "vi": "Bàn là",
+    "vi": "Sắt",
     "zh-CN": "铁",
     "zh-TW": "鐵"
 }

@@ -399,32 +399,6 @@ namespace Strings
 		virtual ~Cipher_Outputs() = default;
 	};
 
-	class Cipher_SelectAChapter : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Cipher_SelectAChapter();
-		virtual ~Cipher_SelectAChapter() = default;
-	};
-
-	class Cipher_Special : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Cipher_Special();
-		virtual ~Cipher_Special() = default;
-	};
-
 	class Cipher_Test : public LocalizedString
 	{
 	public:
@@ -436,19 +410,6 @@ namespace Strings
 	private:
 		Cipher_Test();
 		virtual ~Cipher_Test() = default;
-	};
-
-	class Cipher_Tools : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Cipher_Tools();
-		virtual ~Cipher_Tools() = default;
 	};
 
 	class Cipher_Tutorials_Addition_A_DisplayedAs : public LocalizedString
@@ -605,19 +566,6 @@ namespace Strings
 	private:
 		Cipher_Unlock();
 		virtual ~Cipher_Unlock() = default;
-	};
-
-	class Cipher_ValueEditor : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Cipher_ValueEditor();
-		virtual ~Cipher_ValueEditor() = default;
 	};
 
 	class Common_Brackets : public LocalizedString
@@ -3831,19 +3779,6 @@ namespace Strings
 		virtual ~Hexus_Hexus() = default;
 	};
 
-	class Hexus_HexusPuzzles : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_HexusPuzzles();
-		virtual ~Hexus_HexusPuzzles() = default;
-	};
-
 	class Hexus_LastStand : public LocalizedString
 	{
 	public:
@@ -3855,19 +3790,6 @@ namespace Strings
 	private:
 		Hexus_LastStand();
 		virtual ~Hexus_LastStand() = default;
-	};
-
-	class Hexus_ManageCards : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_ManageCards();
-		virtual ~Hexus_ManageCards() = default;
 	};
 
 	class Hexus_Pass : public LocalizedString
@@ -3883,58 +3805,6 @@ namespace Strings
 		virtual ~Hexus_Pass() = default;
 	};
 
-	class Hexus_PurchaseConfirmation : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_PurchaseConfirmation();
-		virtual ~Hexus_PurchaseConfirmation() = default;
-	};
-
-	class Hexus_SelectAChapter : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_SelectAChapter();
-		virtual ~Hexus_SelectAChapter() = default;
-	};
-
-	class Hexus_SelectOpponent : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_SelectOpponent();
-		virtual ~Hexus_SelectOpponent() = default;
-	};
-
-	class Hexus_Shop : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_Shop();
-		virtual ~Hexus_Shop() = default;
-	};
-
 	class Hexus_SpecialCards : public LocalizedString
 	{
 	public:
@@ -3946,58 +3816,6 @@ namespace Strings
 	private:
 		Hexus_SpecialCards();
 		virtual ~Hexus_SpecialCards() = default;
-	};
-
-	class Hexus_StoreLabelBinary : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_StoreLabelBinary();
-		virtual ~Hexus_StoreLabelBinary() = default;
-	};
-
-	class Hexus_StoreLabelDecimal : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_StoreLabelDecimal();
-		virtual ~Hexus_StoreLabelDecimal() = default;
-	};
-
-	class Hexus_StoreLabelHex : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_StoreLabelHex();
-		virtual ~Hexus_StoreLabelHex() = default;
-	};
-
-	class Hexus_StoreLabelSpecial : public LocalizedString
-	{
-	public:
-		static LocalizedString* create();
-		LocalizedString* clone() override;
-		std::string getStringIdentifier() override;
-	protected:
-		std::string getStringByLanguage(cocos2d::LanguageType languageType) override;
-	private:
-		Hexus_StoreLabelSpecial();
-		virtual ~Hexus_StoreLabelSpecial() = default;
 	};
 
 	class Hexus_Tutorials_A_BinCards : public LocalizedString

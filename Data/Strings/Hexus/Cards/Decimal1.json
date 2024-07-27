@@ -10,9 +10,9 @@
     "es-419": "Soldado",
     "fi": "Sotilas",
     "fr": "Soldat",
-    "hu": "Katona",
+    "hu": "Katonai",
     "it": "Soldato",
-    "ja": "兵士",
+    "ja": "ソルジャー",
     "ko": "군인",
     "nl": "Soldaat",
     "no": "Soldat",
@@ -25,7 +25,7 @@
     "th": "ทหาร",
     "tr": "Asker",
     "uk": "Солдат",
-    "vi": "Quân nhân",
+    "vi": "Người lính",
     "zh-CN": "士兵",
     "zh-TW": "士兵"
 }

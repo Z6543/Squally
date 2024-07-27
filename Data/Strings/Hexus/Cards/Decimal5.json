@@ -1,10 +1,10 @@
 {
-    "ar": "قبطان",
+    "ar": "كابتن",
     "bg": "Капитан",
     "cs": "Kapitán",
     "da": "Kaptajn",
     "de": "Kapitän",
-    "el": "Λοχαγός",
+    "el": "Καπετάνιος",
     "en": "Captain",
     "es": "Capitán",
     "es-419": "Capitán",
@@ -13,7 +13,7 @@
     "hu": "Kapitány",
     "it": "Capitano",
     "ja": "キャプテン",
-    "ko": "선장",
+    "ko": "캡틴",
     "nl": "Kapitein",
     "no": "Kaptein",
     "pl": "Kapitan",
@@ -26,6 +26,6 @@
     "tr": "Kaptan",
     "uk": "Капітан",
     "vi": "Thuyền trưởng",
-    "zh-CN": "船长",
-    "zh-TW": "船長"
+    "zh-CN": "队长",
+    "zh-TW": "隊長"
 }

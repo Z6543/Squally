@@ -1,7 +1,7 @@
 {
     "ar": "حلزون",
     "bg": "Охлюв",
-    "cs": "Šnek",
+    "cs": "Hlemýžď",
     "da": "Snegl",
     "de": "Schnecke",
     "el": "Σαλιγκάρι",
@@ -12,10 +12,10 @@
     "fr": "Escargot",
     "hu": "Csiga",
     "it": "Lumaca",
-    "ja": "蝸牛",
+    "ja": "カタツムリ",
     "ko": "달팽이",
     "nl": "Slak",
-    "no": "Snegl",
+    "no": "Snegle",
     "pl": "Ślimak",
     "pt": "Caracol",
     "pt-BR": "Caracol",
@@ -25,7 +25,7 @@
     "th": "หอยทาก",
     "tr": "Salyangoz",
     "uk": "Равлик",
-    "vi": "Ốc",
+    "vi": "Ốc sên",
     "zh-CN": "蜗牛",
     "zh-TW": "蝸牛"
 }

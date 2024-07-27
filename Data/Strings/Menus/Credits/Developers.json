@@ -1,6 +1,6 @@
 {
     "ar": "المطورون",
-    "bg": "разработчиците",
+    "bg": "Разработчици",
     "cs": "Vývojáři",
     "da": "Udviklere",
     "de": "Entwickler",
@@ -14,18 +14,18 @@
     "it": "Sviluppatori",
     "ja": "開発者",
     "ko": "개발자",
-    "nl": "ontwikkelaars",
+    "nl": "Ontwikkelaars",
     "no": "Utviklere",
     "pl": "Deweloperzy",
     "pt": "Desenvolvedores",
     "pt-BR": "Desenvolvedores",
     "ro": "Dezvoltatori",
     "ru": "Разработчики",
-    "sv": "utvecklare",
+    "sv": "Utvecklare",
     "th": "นักพัฒนา",
     "tr": "Geliştiriciler",
     "uk": "Розробники",
     "vi": "Nhà phát triển",
-    "zh-CN": "开发商",
-    "zh-TW": "開發商"
+    "zh-CN": "开发者",
+    "zh-TW": "開發者"
 }

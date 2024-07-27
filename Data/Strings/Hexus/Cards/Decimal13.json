@@ -1,5 +1,5 @@
 {
-    "ar": "الشامان",
+    "ar": "شامان",
     "bg": "Шаман",
     "cs": "Šaman",
     "da": "Shaman",
@@ -8,12 +8,12 @@
     "en": "Shaman",
     "es": "Chamán",
     "es-419": "Chamán",
-    "fi": "Šamaani",
+    "fi": "Shamaani",
     "fr": "Chaman",
     "hu": "Sámán",
     "it": "Sciamano",
     "ja": "シャーマン",
-    "ko": "샤먼",
+    "ko": "주술사",
     "nl": "Sjamaan",
     "no": "Sjaman",
     "pl": "Szaman",
@@ -25,7 +25,7 @@
     "th": "หมอผี",
     "tr": "Şaman",
     "uk": "Шаман",
-    "vi": "Shaman",
+    "vi": "Pháp sư",
     "zh-CN": "萨满",
     "zh-TW": "薩滿"
 }

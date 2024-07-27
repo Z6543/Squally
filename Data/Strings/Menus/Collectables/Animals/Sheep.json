@@ -1,5 +1,5 @@
 {
-    "ar": "غنم",
+    "ar": "خروف",
     "bg": "Овца",
     "cs": "Ovce",
     "da": "Får",
@@ -12,12 +12,12 @@
     "fr": "Mouton",
     "hu": "Juh",
     "it": "Pecora",
-    "ja": "羊",
+    "ja": "ヒツジ",
     "ko": "양",
     "nl": "Schaap",
     "no": "Sau",
     "pl": "Owca",
-    "pt": "Ovelhas",
+    "pt": "Ovelha",
     "pt-BR": "Ovelha",
     "ro": "Oaie",
     "ru": "Овца",
@@ -26,6 +26,6 @@
     "tr": "Koyun",
     "uk": "Вівця",
     "vi": "Cừu",
-    "zh-CN": "羊",
-    "zh-TW": "羊"
+    "zh-CN": "绵羊",
+    "zh-TW": "綿羊"
 }

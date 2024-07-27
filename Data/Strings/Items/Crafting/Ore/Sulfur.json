@@ -1,6 +1,6 @@
 {
     "ar": "كبريت",
-    "bg": "сяра",
+    "bg": "Сяра",
     "cs": "Síra",
     "da": "Svovl",
     "de": "Schwefel",
@@ -20,12 +20,12 @@
     "pt": "Enxofre",
     "pt-BR": "Enxofre",
     "ro": "Sulf",
-    "ru": "сера",
+    "ru": "Сера",
     "sv": "Svavel",
     "th": "กำมะถัน",
-    "tr": "Sülfür",
+    "tr": "Kükürt",
     "uk": "Сірка",
     "vi": "Lưu huỳnh",
-    "zh-CN": "硫",
-    "zh-TW": "硫"
+    "zh-CN": "硫磺",
+    "zh-TW": "硫磺"
 }
