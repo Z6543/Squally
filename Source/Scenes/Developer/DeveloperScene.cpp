@@ -111,6 +111,7 @@ DeveloperScene::DeveloperScene()
 		- v More transmutes (perhaps custom UI to show a transmute wheel)
 			- v or just scrap transmutes, and add the ability to sell shit
 		- * Lexicon TODOs
+		- * Present chest art fixes
 		- * Arrow keys in large scripts should auto-scroll if cursor goes out of visible text range
 		- * Multi-line comments in scripts can cause line counter to become disrupted
 		- * Should really expand scripting text editor
@@ -134,8 +135,32 @@ DeveloperScene::DeveloperScene()
 		- * Vertical town (maybe two sections, one inaccessible at first to spread out NPCs)
 		- * 1_x typical EF style outdoors leading to town (viking, penguin grunt, penguin warrior, frost fiend (technically in 3_x))
 		- * 2_x for some frost caverns (ice golem, water elemental, yeti) => cryogen
+			- Connects town_main lower to town_main upper
 		- * 3_x for blizzard environment? (goblin elf, toy soldier goblin, snow fiend) => santa => sky cannon
+			- Gate this by frozen water, requiring a venture into 2_x for frost book
 		- * Needs hexus battles
+		- * Needs hexus puzzles
+			- Zone 1_0
+			- Zone 1_1
+			- Town_Main
+			- Sant
+			- Zone 2_x?
+			- Zone 3_x?
+
+			Aspen		=> Town_Main
+			Bodom		=> Inn (H4)
+			Cookie		=> Sant (H6)
+			Cooper		=> Home_2 (H2)
+			Jingles		=> Sant
+			Juniper		=> Sant
+			Kringle		=> Home_1 (H3)
+			Luna		=> Alch
+			Nessie		=> Inn
+			PrincessPepper	=> Town Hall
+			Theldar		=> Smith
+			Tinsel		=> Zone 3_x (H5)
+			Ysara		=> Zone 1_x (H1)
+
 		- * Tune hexus battle special cards
 		- * Needs animals
 		- * Needs enemy scripting according to notes on which instructions this zone covers
@@ -430,6 +455,9 @@ DeveloperScene::DeveloperScene()
 		mapList.push_back(this->buildDebugButton("Smith (BP)", MapResources::BallmerPeaks_Town_Smith));
 		mapList.push_back(this->buildDebugButton("Town Main (BP)", MapResources::BallmerPeaks_Town_Main));
 		mapList.push_back(this->buildDebugButton("Town Hall (BP)", MapResources::BallmerPeaks_Town_Hall));
+		mapList.push_back(this->buildDebugButton("Town Home 1 (BP)", MapResources::BallmerPeaks_Town_Home1));
+		mapList.push_back(this->buildDebugButton("Town Home 2 (BP)", MapResources::BallmerPeaks_Town_Home2));
+		mapList.push_back(this->buildDebugButton("Town Home 3 (BP)", MapResources::BallmerPeaks_Town_Home3));
 		mapList.push_back(this->buildDebugButton("Zone_3_2 (BP)", MapResources::BallmerPeaks_Zone_3_2));
 		mapList.push_back(this->buildDebugButton("Zone_3_1 (BP)", MapResources::BallmerPeaks_Zone_3_1));
 		mapList.push_back(this->buildDebugButton("Zone_3_0 (BP)", MapResources::BallmerPeaks_Zone_3_0));
@@ -604,9 +632,9 @@ ClickableTextNode* DeveloperScene::buildDebugButton(std::string displayName, std
 			SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyGeckyFound, Value(true));
 			SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyGrimFound, Value(true));
 			// SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyHelperName, Value(Guano::MapKey));
-			SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyHelperName, Value(GuanoPetrified::MapKey));
+			// SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyHelperName, Value(GuanoPetrified::MapKey));
 			// SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyHelperName, Value(Gecky::MapKey));
-			// SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyHelperName, Value(Grim::MapKey));
+			SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyHelperName, Value(Grim::MapKey));
 			SaveManager::SoftSaveProfileData(SaveKeys::SaveKeyScrappyFound, Value(true));
 
 			SaveManager::SoftSaveProfileData(SaveKeys::SaveKeySquallyEq, Value(5));
