@@ -50,7 +50,7 @@ PlatformerItemDeserializer::PlatformerItemDeserializer()
 	this->deserializers[Binary11::SaveKey] = [=]() { return (Item*)Binary11::create(); };
 	this->deserializers[Binary12::SaveKey] = [=]() { return (Item*)Binary12::create(); };
 	this->deserializers[Binary13::SaveKey] = [=]() { return (Item*)Binary13::create(); };
-	this->deserializers[Binary14::SaveKey] = [=]() { return (Item*)Binary15::create(); };
+	this->deserializers[Binary14::SaveKey] = [=]() { return (Item*)Binary14::create(); };
 	this->deserializers[Binary15::SaveKey] = [=]() { return (Item*)Binary15::create(); };
 
 	this->deserializers[Decimal0::SaveKey] = [=]() { return (Item*)Decimal0::create(); };
@@ -67,7 +67,7 @@ PlatformerItemDeserializer::PlatformerItemDeserializer()
 	this->deserializers[Decimal11::SaveKey] = [=]() { return (Item*)Decimal11::create(); };
 	this->deserializers[Decimal12::SaveKey] = [=]() { return (Item*)Decimal12::create(); };
 	this->deserializers[Decimal13::SaveKey] = [=]() { return (Item*)Decimal13::create(); };
-	this->deserializers[Decimal14::SaveKey] = [=]() { return (Item*)Decimal15::create(); };
+	this->deserializers[Decimal14::SaveKey] = [=]() { return (Item*)Decimal14::create(); };
 	this->deserializers[Decimal15::SaveKey] = [=]() { return (Item*)Decimal15::create(); };
 	
 	this->deserializers[Hex0::SaveKey] = [=]() { return (Item*)Hex0::create(); };
@@ -84,12 +84,13 @@ PlatformerItemDeserializer::PlatformerItemDeserializer()
 	this->deserializers[Hex11::SaveKey] = [=]() { return (Item*)Hex11::create(); };
 	this->deserializers[Hex12::SaveKey] = [=]() { return (Item*)Hex12::create(); };
 	this->deserializers[Hex13::SaveKey] = [=]() { return (Item*)Hex13::create(); };
-	this->deserializers[Hex14::SaveKey] = [=]() { return (Item*)Hex15::create(); };
+	this->deserializers[Hex14::SaveKey] = [=]() { return (Item*)Hex14::create(); };
 	this->deserializers[Hex15::SaveKey] = [=]() { return (Item*)Hex15::create(); };
 
 	this->deserializers[SpecialAbsorb::SaveKey] = [=]() { return (Item*)SpecialAbsorb::create(); };
 	this->deserializers[SpecialAdd::SaveKey] = [=]() { return (Item*)SpecialAdd::create(); };
 	this->deserializers[SpecialAnd::SaveKey] = [=]() { return (Item*)SpecialAnd::create(); };
+	this->deserializers[SpecialBonusMoves::SaveKey] = [=]() { return (Item*)SpecialBonusMoves::create(); };
 	this->deserializers[SpecialFlip1::SaveKey] = [=]() { return (Item*)SpecialFlip1::create(); };
 	this->deserializers[SpecialFlip2::SaveKey] = [=]() { return (Item*)SpecialFlip2::create(); };
 	this->deserializers[SpecialFlip3::SaveKey] = [=]() { return (Item*)SpecialFlip3::create(); };
@@ -100,6 +101,8 @@ PlatformerItemDeserializer::PlatformerItemDeserializer()
 	this->deserializers[SpecialMov::SaveKey] = [=]() { return (Item*)SpecialMov::create(); };
 	this->deserializers[SpecialOr::SaveKey] = [=]() { return (Item*)SpecialOr::create(); };
 	this->deserializers[SpecialPeek::SaveKey] = [=]() { return (Item*)SpecialPeek::create(); };
+	this->deserializers[SpecialPop::SaveKey] = [=]() { return (Item*)SpecialPop::create(); };
+	this->deserializers[SpecialPush::SaveKey] = [=]() { return (Item*)SpecialPush::create(); };
 	this->deserializers[SpecialShl::SaveKey] = [=]() { return (Item*)SpecialShl::create(); };
 	this->deserializers[SpecialShlCircular::SaveKey] = [=]() { return (Item*)SpecialShlCircular::create(); };
 	this->deserializers[SpecialShr::SaveKey] = [=]() { return (Item*)SpecialShr::create(); };
@@ -107,7 +110,7 @@ PlatformerItemDeserializer::PlatformerItemDeserializer()
 	this->deserializers[SpecialSteal::SaveKey] = [=]() { return (Item*)SpecialSteal::create(); };
 	this->deserializers[SpecialSub::SaveKey] = [=]() { return (Item*)SpecialSub::create(); };
 	this->deserializers[SpecialXor::SaveKey] = [=]() { return (Item*)SpecialXor::create(); };
-
+	
 	// Crafting
 	this->deserializers[Bone::SaveKey] = [=]() { return (Item*)Bone::create(); };
 	this->deserializers[Coal::SaveKey] = [=]() { return (Item*)Coal::create(); };
